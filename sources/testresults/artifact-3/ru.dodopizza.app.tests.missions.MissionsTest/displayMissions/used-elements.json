@@ -1,0 +1,10 @@
+{
+  "ru.dodopizza.app.screens.profile.self.LoyaltyMissionItem": [
+    "missionReward",
+    "missionTitle"
+  ],
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "missionsRecycler",
+    "self"
+  ]
+}

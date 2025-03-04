@@ -1,0 +1,16 @@
+{
+  "ru.dodopizza.app.screens.loyalty.self.LoyaltyHistoryOperationItem": [
+    "amount",
+    "title"
+  ],
+  "ru.dodopizza.app.screens.loyalty.self.LoyaltyScreen": [
+    "categories",
+    "historyOperations"
+  ],
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "self"
+  ],
+  "ru.dodopizza.app.screens.profile.self.components.ProfileMenuComponent": [
+    "menu"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ru.dodopizza.app.screens.profile.settings.ProfileSettingsScreen": [
+    "legalDocumentButton",
+    "logoutButton"
+  ],
+  "ru.dodopizza.app.screens.documents.LegalDocumentsScreen": [
+    "documents"
+  ],
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "settingsButton",
+    "self"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "ru.dodopizza.app.screens.cart.ShoppingCartScreen": [
+    "cartProducts",
+    "loyaltyRewardSum"
+  ]
+}

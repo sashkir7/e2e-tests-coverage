@@ -1,0 +1,13 @@
+{
+  "ru.dodopizza.app.screens.login.PhoneNumberLoginScreen": [
+    "phoneNumberInput"
+  ],
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "settingsButton",
+    "setPhoneButton",
+    "self"
+  ],
+  "ru.dodopizza.app.screens.login.PinCodeLoginScreen": [
+    "pinCodeInput"
+  ]
+}

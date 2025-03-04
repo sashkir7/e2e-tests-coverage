@@ -1,0 +1,11 @@
+{
+  "ru.dodopizza.app.screens.profile.self.components.ProfileMenuComponent": [
+    "menu"
+  ],
+  "ru.dodopizza.app.screens.loyalty.self.LoyaltyScreen": [
+    "categories"
+  ],
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "self"
+  ]
+}

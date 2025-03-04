@@ -1,0 +1,341 @@
+{
+    "name": "Изменение размера вариативного продукта из корзины",
+    "start": 1741000455736,
+    "stop": 1741000500148,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Подготовка состояния пользователя",
+            "start": 1741000458419,
+            "stop": 1741000466429,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Вызов API: Получение смс-кода (авторизация)",
+                    "start": 1741000459412,
+                    "stop": 1741000460045,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Завершение авторизации (auth-токен)",
+                    "start": 1741000460045,
+                    "stop": 1741000460411,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сохранение имени пользователю",
+                    "start": 1741000460413,
+                    "stop": 1741000461024,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Выбор пиццерии",
+                    "start": 1741000461026,
+                    "stop": 1741000462254,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сброс кэшей на MAPI",
+                    "start": 1741000462256,
+                    "stop": 1741000462832,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Открыть приложение",
+            "start": 1741000466429,
+            "stop": 1741000473814,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что splash-экран не отображается",
+                    "start": 1741000467812,
+                    "stop": 1741000473814,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Добавить ряд продуктов в корзину",
+            "start": 1741000473815,
+            "stop": 1741000493572,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что меню успешно загружено",
+                    "start": 1741000473824,
+                    "stop": 1741000478690,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Открыть карточку продукта 'Пепперони'",
+                    "start": 1741000478691,
+                    "stop": 1741000493535,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [
+                        {
+                            "name": "Получить карточку продукта 'Пепперони' из меню",
+                            "start": 1741000479699,
+                            "stop": 1741000493535,
+                            "stage": "finished",
+                            "description": null,
+                            "descriptionHtml": null,
+                            "status": "passed",
+                            "statusDetails": null,
+                            "steps": [
+                                {
+                                    "name": "Открыть карточку",
+                                    "start": 1741000491213,
+                                    "stop": 1741000493535,
+                                    "stage": "finished",
+                                    "description": null,
+                                    "descriptionHtml": null,
+                                    "status": "passed",
+                                    "statusDetails": null,
+                                    "steps": [],
+                                    "attachments": [],
+                                    "parameters": []
+                                }
+                            ],
+                            "attachments": [],
+                            "parameters": []
+                        }
+                    ],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Нажать на кнопку 'В корзину'",
+                    "start": 1741000493538,
+                    "stop": 1741000493571,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку 'Корзина'",
+            "start": 1741000493572,
+            "stop": 1741000496092,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Получить из корзины позицию 'Пепперони'",
+            "start": 1741000496097,
+            "stop": 1741000497170,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Нажать на кнопку 'Изменить'",
+                    "start": 1741000496129,
+                    "stop": 1741000497170,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Выбрать размер пиццы 'Маленькая'",
+            "start": 1741000497171,
+            "stop": 1741000497198,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку 'В корзину'",
+            "start": 1741000497198,
+            "stop": 1741000497514,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Получить из корзины позицию 'Пепперони'",
+            "start": 1741000497515,
+            "stop": 1741000499624,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что описание '25 см, традиционное'",
+                    "start": 1741000498333,
+                    "stop": 1741000499624,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [
+        {
+            "source": "7530b33a-d7f4-49a7-b839-35f5e0154e4c-attachment.txt",
+            "name": "USER STATE",
+            "type": "text/plain"
+        }
+    ],
+    "parameters": [],
+    "uuid": "6b2fc69c-60f6-4636-bcc2-8a4e3ab7c398",
+    "historyId": "575908cf8e2728b5e45823ea9e1bff07",
+    "fullName": "ru.dodopizza.app.tests.menu.EditProductCardFromCartTest.editSize",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.dodopizza.app.tests.menu"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.dodopizza.app.tests.menu.EditProductCardFromCartTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "editSize"
+        },
+        {
+            "name": "suite",
+            "value": "ru.dodopizza.app.tests.menu.EditProductCardFromCartTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: ru.dodopizza.app.DodoTestRunner(453)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "63704"
+        }
+    ]
+}

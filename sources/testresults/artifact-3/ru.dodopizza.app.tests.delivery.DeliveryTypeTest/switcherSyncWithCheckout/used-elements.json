@@ -1,0 +1,17 @@
+{
+  "ru.dodopizza.app.screens.foodmenu.self.FoodMenuScreen": [
+    "cartButton"
+  ],
+  "ru.dodopizza.app.screens.foodmenu.components.AddressContainerFoodMenuComponent": [
+    "address"
+  ],
+  "ru.dodopizza.app.screens.checkout.CheckoutDetailsScreen": [
+    "deliveryAddressTextView"
+  ],
+  "ru.dodopizza.app.screens.splash.SplashScreen": [
+    "self"
+  ],
+  "ru.dodopizza.app.screens.cart.ShoppingCartScreen": [
+    "placeOrderButton"
+  ]
+}

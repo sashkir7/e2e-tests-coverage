@@ -1,0 +1,2 @@
+Phone number = +79999999999
+Workflow id = b9b6f7bc-9c41-4a14-bae7-40885c366614
