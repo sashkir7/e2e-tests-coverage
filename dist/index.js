@@ -27502,11 +27502,13 @@ function requireMain () {
 	var parsetestresults_1 = requireParsetestresults();
 	function run() {
 	  return __awaiter(this, void 0, void 0, function () {
-	    var whoToGreet, time;
+	    var whoToGreet, dir, time;
 	    return __generator(this, function (_a) {
 	      try {
 	        whoToGreet = core.getInput('who-to-greet', { required: true });
 	        core.info('Hello, '.concat(whoToGreet, '! WELCOME!'));
+	        dir = process.cwd();
+	        core.info(dir);
 	        time = new Date().toTimeString();
 	        core.setOutput('time', time);
 	        justDoIt();

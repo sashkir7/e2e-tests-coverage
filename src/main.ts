@@ -7,6 +7,9 @@ export async function run(): Promise<void> {
     const whoToGreet: string = core.getInput('who-to-greet', { required: true })
     core.info(`Hello, ${whoToGreet}! WELCOME!`)
 
+    const dir = process.cwd()
+    core.info(dir)
+
     const time: string = new Date().toTimeString()
     core.setOutput('time', time)
 
