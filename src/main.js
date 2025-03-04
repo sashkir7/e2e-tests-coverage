@@ -139,6 +139,8 @@ var __generator =
 Object.defineProperty(exports, '__esModule', { value: true })
 exports.run = run
 var core = require('@actions/core')
+var parsesources_1 = require('./parsesources')
+var parsetestresults_1 = require('./parsetestresults')
 function run() {
   return __awaiter(this, void 0, void 0, function () {
     var whoToGreet, time
@@ -148,10 +150,38 @@ function run() {
         core.info('Hello, '.concat(whoToGreet, '! WELCOME!'))
         time = new Date().toTimeString()
         core.setOutput('time', time)
+        justDoIt()
       } catch (error) {
         if (error instanceof Error) core.setFailed(error.message)
       }
       return [2 /*return*/]
     })
   })
+}
+function justDoIt() {
+  var rawCoverage = (0, parsesources_1.default)('./../sources/project/screens')
+  var testsCoverage = (0, parsetestresults_1.default)(
+    './../sources/testresults/artifact-3'
+  )
+  // "/Users/alx.krw/Downloads/artifact-3")
+  var sumPercents = 0
+  var percents = new Map()
+  rawCoverage.forEach(function (parameters, className) {
+    var testsElements = new Set()
+    if (testsCoverage.has(className)) {
+      testsElements = testsCoverage.get(className)
+    }
+    var percent = (testsElements.size * 100) / parameters.size
+    sumPercents = sumPercents + percent
+    percents.set(className, percent)
+  })
+  var averagePercent = sumPercents / percents.size
+  console.log(percents)
+  console.log('Средний % = ' + averagePercent)
+  core.info(
+    '\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u043F\u0440\u043E\u0446\u0435\u043D\u0442 ' +
+      averagePercent
+  )
+  core.info('-------')
+  core.info(JSON.stringify(Object.fromEntries(percents)))
 }
