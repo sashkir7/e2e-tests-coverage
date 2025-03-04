@@ -1,398 +1,398 @@
 {
-    "name": "Редактирование комбо в корзине",
-    "start": 1741000494918,
-    "stop": 1741000519080,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Редактирование комбо в корзине",
+  "start": 1741000494918,
+  "stop": 1741000519080,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Открыть приложение",
+      "start": 1741000497775,
+      "stop": 1741000504191,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Открыть приложение",
-            "start": 1741000497775,
-            "stop": 1741000504191,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что splash-экран не отображается",
-                    "start": 1741000501207,
-                    "stop": 1741000504191,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
-        },
-        {
-            "name": "Добавить комбо в корзину",
-            "start": 1741000504192,
-            "stop": 1741000514400,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что меню успешно загружено",
-                    "start": 1741000504206,
-                    "stop": 1741000504211,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Открыть карточку продукта '2 пиццы'",
-                    "start": 1741000504211,
-                    "stop": 1741000510433,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Получить карточку продукта '2 пиццы' из меню",
-                            "start": 1741000505215,
-                            "stop": 1741000510433,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [
-                                {
-                                    "name": "Открыть карточку",
-                                    "start": 1741000509280,
-                                    "stop": 1741000510432,
-                                    "stage": "finished",
-                                    "description": null,
-                                    "descriptionHtml": null,
-                                    "status": "passed",
-                                    "statusDetails": null,
-                                    "steps": [],
-                                    "attachments": [],
-                                    "parameters": []
-                                }
-                            ],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Закрыть подсказку 'Выберите любимые продукты'",
-                    "start": 1741000510436,
-                    "stop": 1741000511545,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Нажать на кнопку 'В корзину'",
-                    "start": 1741000511545,
-                    "stop": 1741000513200,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Нажать на кнопку 'Корзина'",
-                    "start": 1741000513200,
-                    "stop": 1741000514400,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
-        },
-        {
-            "name": "Изменить состав комбо",
-            "start": 1741000514401,
-            "stop": 1741000518367,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Получить из корзины позицию '2 пиццы'",
-                    "start": 1741000514406,
-                    "stop": 1741000514766,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Нажать на кнопку 'Изменить'",
-                            "start": 1741000514425,
-                            "stop": 1741000514765,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Получить карточку комбо-продукта 'Бургер-пицца'",
-                    "start": 1741000514766,
-                    "stop": 1741000515924,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Перейти в конструктор комбо",
-                            "start": 1741000514786,
-                            "stop": 1741000515924,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Получить позицию конструктора комбо 'Пепперони'",
-                    "start": 1741000515926,
-                    "stop": 1741000518367,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Нажать на кнопку 'Выбрать'",
-                            "start": 1741000518101,
-                            "stop": 1741000518367,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
-        },
-        {
-            "name": "Проверить, что состав комбо был изменен",
-            "start": 1741000518367,
-            "stop": 1741000518761,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить содержимое комбо-набора",
-                    "start": 1741000518368,
-                    "stop": 1741000518404,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Получить карточку комбо-продукта 'Пепперони'",
-                            "start": 1741000518369,
-                            "stop": 1741000518387,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [
-                                {
-                                    "name": "Проверить, что заголовок 'Пепперони'",
-                                    "start": 1741000518385,
-                                    "stop": 1741000518387,
-                                    "stage": "finished",
-                                    "description": null,
-                                    "descriptionHtml": null,
-                                    "status": "passed",
-                                    "statusDetails": null,
-                                    "steps": [],
-                                    "attachments": [],
-                                    "parameters": []
-                                }
-                            ],
-                            "attachments": [],
-                            "parameters": []
-                        },
-                        {
-                            "name": "Получить карточку комбо-продукта 'Ветчина и грибы'",
-                            "start": 1741000518387,
-                            "stop": 1741000518404,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [
-                                {
-                                    "name": "Проверить, что заголовок 'Ветчина и грибы'",
-                                    "start": 1741000518402,
-                                    "stop": 1741000518404,
-                                    "stage": "finished",
-                                    "description": null,
-                                    "descriptionHtml": null,
-                                    "status": "passed",
-                                    "statusDetails": null,
-                                    "steps": [],
-                                    "attachments": [],
-                                    "parameters": []
-                                }
-                            ],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Нажать на кнопку 'В корзину'",
-                    "start": 1741000518404,
-                    "stop": 1741000518759,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Проверить, что экран корзины успешно загружен",
-                    "start": 1741000518759,
-                    "stop": 1741000518761,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Проверить, что splash-экран не отображается",
+          "start": 1741000501207,
+          "stop": 1741000504191,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Добавить комбо в корзину",
+      "start": 1741000504192,
+      "stop": 1741000514400,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "2ebf9898-9bb4-4f63-9836-1f13b87d6bf7-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Проверить, что меню успешно загружено",
+          "start": 1741000504206,
+          "stop": 1741000504211,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Открыть карточку продукта '2 пиццы'",
+          "start": 1741000504211,
+          "stop": 1741000510433,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Получить карточку продукта '2 пиццы' из меню",
+              "start": 1741000505215,
+              "stop": 1741000510433,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [
+                {
+                  "name": "Открыть карточку",
+                  "start": 1741000509280,
+                  "stop": 1741000510432,
+                  "stage": "finished",
+                  "description": null,
+                  "descriptionHtml": null,
+                  "status": "passed",
+                  "statusDetails": null,
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": []
+                }
+              ],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Закрыть подсказку 'Выберите любимые продукты'",
+          "start": 1741000510436,
+          "stop": 1741000511545,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Нажать на кнопку 'В корзину'",
+          "start": 1741000511545,
+          "stop": 1741000513200,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Нажать на кнопку 'Корзина'",
+          "start": 1741000513200,
+          "stop": 1741000514400,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "939524d0-0839-44b2-a1ed-1e5a73e2ad30",
-    "historyId": "def3acce770398fbce031509f38e7865",
-    "fullName": "ru.dodopizza.app.tests.food.combo.EditComboCartTest.editCombo",
-    "labels": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Изменить состав комбо",
+      "start": 1741000514401,
+      "stop": 1741000518367,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.food.combo"
+          "name": "Получить из корзины позицию '2 пиццы'",
+          "start": 1741000514406,
+          "stop": 1741000514766,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Изменить'",
+              "start": 1741000514425,
+              "stop": 1741000514765,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.food.combo.EditComboCartTest"
+          "name": "Получить карточку комбо-продукта 'Бургер-пицца'",
+          "start": 1741000514766,
+          "stop": 1741000515924,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Перейти в конструктор комбо",
+              "start": 1741000514786,
+              "stop": 1741000515924,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "testMethod",
-            "value": "editCombo"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.food.combo.EditComboCartTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(454)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "736921"
+          "name": "Получить позицию конструктора комбо 'Пепперони'",
+          "start": 1741000515926,
+          "stop": 1741000518367,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Выбрать'",
+              "start": 1741000518101,
+              "stop": 1741000518367,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
         }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что состав комбо был изменен",
+      "start": 1741000518367,
+      "stop": 1741000518761,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
+        {
+          "name": "Проверить содержимое комбо-набора",
+          "start": 1741000518368,
+          "stop": 1741000518404,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Получить карточку комбо-продукта 'Пепперони'",
+              "start": 1741000518369,
+              "stop": 1741000518387,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [
+                {
+                  "name": "Проверить, что заголовок 'Пепперони'",
+                  "start": 1741000518385,
+                  "stop": 1741000518387,
+                  "stage": "finished",
+                  "description": null,
+                  "descriptionHtml": null,
+                  "status": "passed",
+                  "statusDetails": null,
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": []
+                }
+              ],
+              "attachments": [],
+              "parameters": []
+            },
+            {
+              "name": "Получить карточку комбо-продукта 'Ветчина и грибы'",
+              "start": 1741000518387,
+              "stop": 1741000518404,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [
+                {
+                  "name": "Проверить, что заголовок 'Ветчина и грибы'",
+                  "start": 1741000518402,
+                  "stop": 1741000518404,
+                  "stage": "finished",
+                  "description": null,
+                  "descriptionHtml": null,
+                  "status": "passed",
+                  "statusDetails": null,
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": []
+                }
+              ],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Нажать на кнопку 'В корзину'",
+          "start": 1741000518404,
+          "stop": 1741000518759,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Проверить, что экран корзины успешно загружен",
+          "start": 1741000518759,
+          "stop": 1741000518761,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        }
+      ],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "2ebf9898-9bb4-4f63-9836-1f13b87d6bf7-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "939524d0-0839-44b2-a1ed-1e5a73e2ad30",
+  "historyId": "def3acce770398fbce031509f38e7865",
+  "fullName": "ru.dodopizza.app.tests.food.combo.EditComboCartTest.editCombo",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.food.combo"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.food.combo.EditComboCartTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "editCombo"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.food.combo.EditComboCartTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(454)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "736921"
+    }
+  ]
 }

@@ -1,276 +1,276 @@
 {
-    "name": "Авторизованный. Россия. Правовые документы",
-    "start": 1741000407930,
-    "stop": 1741000450244,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Авторизованный. Россия. Правовые документы",
+  "start": 1741000407930,
+  "stop": 1741000450244,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000412139,
+      "stop": 1741000418289,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000412139,
-            "stop": 1741000418289,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000413050,
-                    "stop": 1741000413674,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000413674,
-                    "stop": 1741000414086,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000414088,
-                    "stop": 1741000414779,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000414780,
-                    "stop": 1741000415326,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000413050,
+          "stop": 1741000413674,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение на экране настроек профиля",
-            "start": 1741000418289,
-            "stop": 1741000432144,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Открыть приложение на экране профиля",
-                    "start": 1741000418289,
-                    "stop": 1741000426164,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Проверить, что экран профиля пользователя успешно загружен",
-                            "start": 1741000419143,
-                            "stop": 1741000426164,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Нажать на кнопку 'Настройки'",
-                    "start": 1741000426164,
-                    "stop": 1741000432112,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Проверить, что экран настроек профиля успешно загружен",
-                    "start": 1741000432124,
-                    "stop": 1741000432143,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000413674,
+          "stop": 1741000414086,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Нажать на кнопку 'Правовые документы'",
-            "start": 1741000432144,
-            "stop": 1741000433057,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000414088,
+          "stop": 1741000414779,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что экран с документами успешно загружен",
-            "start": 1741000433059,
-            "stop": 1741000433064,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
-        },
-        {
-            "name": "Открыть документ 'Оферта'",
-            "start": 1741000433068,
-            "stop": 1741000434553,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
-        },
-        {
-            "name": "Проверить, что документ 'Оферта' успешно загружен",
-            "start": 1741000434554,
-            "stop": 1741000449659,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что в WebView загружен url-адрес 'https://dodopizza.ru/Sochi/legal/offer'",
-                    "start": 1741000434556,
-                    "stop": 1741000444597,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "broken",
-                    "statusDetails": {
-                        "message": "java.util.concurrent.TimeoutException: Waited 10 seconds (plus 934982 nanoseconds delay) for TransformFuture@28110b2[status=PENDING, info=[inputFuture=[SettableFuture@fb68803[status=PENDING]], function=[androidx.test.espresso.web.action.AtomAction$3@37b0380]]]",
-                        "trace": "java.lang.RuntimeException: java.util.concurrent.TimeoutException: Waited 10 seconds (plus 934982 nanoseconds delay) for TransformFuture@28110b2[status=PENDING, info=[inputFuture=[SettableFuture@fb68803[status=PENDING]], function=[androidx.test.espresso.web.action.AtomAction$3@37b0380]]]\n\tat dalvik.system.VMStack.getThreadStackTrace(Native Method)\n\tat java.lang.Thread.getStackTrace(Thread.java:1736)\n\tat com.kaspersky.kaspresso.failure.FailureLoggingProviderImpl.describedWith(FailureLoggingProviderImpl.kt:96)\n\tat com.kaspersky.kaspresso.failure.FailureLoggingProviderImpl.logDescriptionAndThrow(FailureLoggingProviderImpl.kt:69)\n\tat com.kaspersky.kaspresso.failure.LoggingFailureHandler.logDescriptionAndThrow(Unknown Source:2)\n\tat com.kaspersky.kaspresso.failure.LoggingFailureHandler.handle(LoggingFailureHandler.kt:21)\n\tat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:385)\n\tat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:212)\n\tat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:140)\n\tat androidx.test.espresso.web.sugar.Web$WebInteraction.doEval(Web.java:11)\n\tat androidx.test.espresso.web.sugar.Web$WebInteraction.withElement(Web.java:2)\n\tat io.github.kakaocup.kakao.delegate.WebInteractionDelegate.withElement(WebInteractionDelegate.kt:58)\n\tat io.github.kakaocup.kakao.web.WebAssertions$DefaultImpls.matches(WebAssertions.kt:47)\n\tat io.github.kakaocup.kakao.web.WebElementBuilder$KWebInteraction.matches(WebElementBuilder.kt:34)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl$lambda$2$lambda$1$lambda$0(WebViewActions.kt:13)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.$r8$lambda$KJHtnykHsQ3tGKecfUFG0Qw4qEc(Unknown Source:0)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)\n\tat io.github.kakaocup.kakao.web.WebElementBuilder.withElement(WebElementBuilder.kt:31)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl$lambda$2$lambda$1(WebViewActions.kt:12)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.$r8$lambda$u8-7rf9S5Mm73-5peRydx6RxXRM(Unknown Source:0)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)\n\tat io.github.kakaocup.kakao.web.KWebView.invoke(KWebView.kt:32)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl$lambda$2(WebViewActions.kt:11)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.$r8$lambda$fy61aN7PrcWrEPlL87gF114cWr8(Unknown Source:0)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)\n\tat io.qameta.allure.kotlin.Allure.step(Allure.kt:60)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl(WebViewActions.kt:10)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen.verifyDocumentIsLoaded$lambda$8(LegalDocumentsScreen.kt:39)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen.$r8$lambda$Gwj2ZGVAERi3vsEMGrI2hPv-9Xg(Unknown Source:0)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)\n\tat com.kaspersky.kaspresso.flakysafety.algorithm.FlakySafetyAlgorithm.invokeFlakySafely(FlakySafetyAlgorithm.kt:32)\n\tat com.kaspersky.kaspresso.flakysafety.FlakySafetyProviderGlobalImpl.flakySafely(FlakySafetyProviderGlobalImpl.kt:94)\n\tat com.kaspersky.kaspresso.testcases.core.testcontext.BaseTestContext.flakySafely(Unknown Source:12)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely(KBaseScreen.kt:110)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely$lambda$6(KBaseScreen.kt:121)\n\tat ru.dodopizza.app.screens.KBaseScreen.$r8$lambda$vET64TwbDNlN24OpgIU1qNt82oI(Unknown Source:0)\n\tat ru.dodopizza.app.screens.KBaseScreen$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)\n\tat com.kaspersky.kaspresso.testcases.core.testcontext.TestContext.step(TestContext.kt:39)\n\tat ru.dodopizza.app.screens.KBaseScreen.step(KBaseScreen.kt:85)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely(KBaseScreen.kt:120)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely$default(KBaseScreen.kt:112)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen.verifyDocumentIsLoaded(LegalDocumentsScreen.kt:35)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument$lambda$5$lambda$4(LegalDocumentsTest.kt:50)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.$r8$lambda$RTF1MgiPAnWjCrU1v-wQfWlA9yU(Unknown Source:0)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest$$ExternalSyntheticLambda6.invoke(D8$$SyntheticClass:0)\n\tat io.github.kakaocup.kakao.screen.Screen.invoke(Screen.kt:119)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument$lambda$5(LegalDocumentsTest.kt:47)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.$r8$lambda$KfN2FHToTEt8QCanbiPJykaGh8o(Unknown Source:0)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest$$ExternalSyntheticLambda8.invoke(D8$$SyntheticClass:0)\n\tat ru.dodopizza.app.tests.BaseTest.test$lambda$1(BaseTest.kt:112)\n\tat ru.dodopizza.app.tests.BaseTest.$r8$lambda$F7Ro8yOKlytXtBztt90jaQOUFwc(Unknown Source:0)\n\tat ru.dodopizza.app.tests.BaseTest$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)\n\tat com.kaspersky.kaspresso.testcases.core.TestRunner.runMainTestSection(TestRunner.kt:153)\n\tat com.kaspersky.kaspresso.testcases.core.TestRunner.run(TestRunner.kt:66)\n\tat com.kaspersky.kaspresso.testcases.core.sections.MainTestSection.run(MainTestSection.kt:29)\n\tat com.kaspersky.kaspresso.testcases.api.testcase.BaseTestCase.run(BaseTestCase.kt:92)\n\tat com.kaspersky.kaspresso.testcases.api.testcase.BaseTestCase.run$default(BaseTestCase.kt:87)\n\tat ru.dodopizza.app.tests.BaseTest.test(BaseTest.kt:98)\n\tat ru.dodopizza.app.tests.BaseTest.test$default(BaseTest.kt:92)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument(LegalDocumentsTest.kt:45)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:272)\n\tat androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:271)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.withDisposableContent(ComposeUiTest.android.kt:505)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1$1.invoke(ComposeUiTest.android.kt:333)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withComposeIdlingResource(ComposeUiTest.android.kt:385)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withComposeIdlingResource(ComposeUiTest.android.kt:219)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1.invoke(ComposeUiTest.android.kt:332)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withWindowRecomposer(ComposeUiTest.android.kt:359)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withWindowRecomposer(ComposeUiTest.android.kt:219)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1.invoke(ComposeUiTest.android.kt:331)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withTestCoroutines(ComposeUiTest.android.kt:372)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withTestCoroutines(ComposeUiTest.android.kt:219)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1.invoke(ComposeUiTest.android.kt:330)\n\tat androidx.compose.ui.test.EspressoLink.withStrategy(EspressoLink.android.kt:66)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1.invoke(ComposeUiTest.android.kt:329)\n\tat androidx.compose.ui.test.IdlingResourceRegistry.withRegistry(IdlingResourceRegistry.jvm.kt:155)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1.invoke(ComposeUiTest.android.kt:328)\n\tat androidx.compose.ui.test.ComposeRootRegistry.withRegistry(ComposeRootRegistry.android.kt:146)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:327)\n\tat androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat org.junit.rules.RunRules.evaluate(RunRules.java:20)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)\nCaused by: java.util.concurrent.TimeoutException: Waited 10 seconds (plus 934982 nanoseconds delay) for TransformFuture@28110b2[status=PENDING, info=[inputFuture=[SettableFuture@fb68803[status=PENDING]], function=[androidx.test.espresso.web.action.AtomAction$3@37b0380]]]\n\tat androidx.test.espresso.web.internal.deps.guava.util.concurrent.AbstractFuture.get(AbstractFuture.java:74)\n\tat androidx.test.espresso.web.internal.deps.guava.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:2)\n\tat androidx.test.espresso.web.action.AtomAction.get(AtomAction.java:4)\n\tat androidx.test.espresso.web.sugar.Web$WebInteraction.doEval(Web.java:6)\n\t... 119 more\n"
-                    },
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Проверить, что в WebView загружен url-адрес 'https://dodopizza.ru/Sochi/legal/offer'",
-                    "start": 1741000445098,
-                    "stop": 1741000449659,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000414780,
+          "stop": 1741000415326,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение на экране настроек профиля",
+      "start": 1741000418289,
+      "stop": 1741000432144,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "86a1e1cc-3d3a-408f-a903-d9107e41ae82-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Открыть приложение на экране профиля",
+          "start": 1741000418289,
+          "stop": 1741000426164,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Проверить, что экран профиля пользователя успешно загружен",
+              "start": 1741000419143,
+              "stop": 1741000426164,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Нажать на кнопку 'Настройки'",
+          "start": 1741000426164,
+          "stop": 1741000432112,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Проверить, что экран настроек профиля успешно загружен",
+          "start": 1741000432124,
+          "stop": 1741000432143,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "8d6228ff-c986-43d5-b6b0-48826dd213ca",
-    "historyId": "c1dc7fc7f657420325a4bc81dfd66364",
-    "fullName": "ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument",
-    "labels": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Нажать на кнопку 'Правовые документы'",
+      "start": 1741000432144,
+      "stop": 1741000433057,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что экран с документами успешно загружен",
+      "start": 1741000433059,
+      "stop": 1741000433064,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть документ 'Оферта'",
+      "start": 1741000433068,
+      "stop": 1741000434553,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что документ 'Оферта' успешно загружен",
+      "start": 1741000434554,
+      "stop": 1741000449659,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.profile"
+          "name": "Проверить, что в WebView загружен url-адрес 'https://dodopizza.ru/Sochi/legal/offer'",
+          "start": 1741000434556,
+          "stop": 1741000444597,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "broken",
+          "statusDetails": {
+            "message": "java.util.concurrent.TimeoutException: Waited 10 seconds (plus 934982 nanoseconds delay) for TransformFuture@28110b2[status=PENDING, info=[inputFuture=[SettableFuture@fb68803[status=PENDING]], function=[androidx.test.espresso.web.action.AtomAction$3@37b0380]]]",
+            "trace": "java.lang.RuntimeException: java.util.concurrent.TimeoutException: Waited 10 seconds (plus 934982 nanoseconds delay) for TransformFuture@28110b2[status=PENDING, info=[inputFuture=[SettableFuture@fb68803[status=PENDING]], function=[androidx.test.espresso.web.action.AtomAction$3@37b0380]]]\n\tat dalvik.system.VMStack.getThreadStackTrace(Native Method)\n\tat java.lang.Thread.getStackTrace(Thread.java:1736)\n\tat com.kaspersky.kaspresso.failure.FailureLoggingProviderImpl.describedWith(FailureLoggingProviderImpl.kt:96)\n\tat com.kaspersky.kaspresso.failure.FailureLoggingProviderImpl.logDescriptionAndThrow(FailureLoggingProviderImpl.kt:69)\n\tat com.kaspersky.kaspresso.failure.LoggingFailureHandler.logDescriptionAndThrow(Unknown Source:2)\n\tat com.kaspersky.kaspresso.failure.LoggingFailureHandler.handle(LoggingFailureHandler.kt:21)\n\tat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:385)\n\tat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:212)\n\tat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:140)\n\tat androidx.test.espresso.web.sugar.Web$WebInteraction.doEval(Web.java:11)\n\tat androidx.test.espresso.web.sugar.Web$WebInteraction.withElement(Web.java:2)\n\tat io.github.kakaocup.kakao.delegate.WebInteractionDelegate.withElement(WebInteractionDelegate.kt:58)\n\tat io.github.kakaocup.kakao.web.WebAssertions$DefaultImpls.matches(WebAssertions.kt:47)\n\tat io.github.kakaocup.kakao.web.WebElementBuilder$KWebInteraction.matches(WebElementBuilder.kt:34)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl$lambda$2$lambda$1$lambda$0(WebViewActions.kt:13)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.$r8$lambda$KJHtnykHsQ3tGKecfUFG0Qw4qEc(Unknown Source:0)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)\n\tat io.github.kakaocup.kakao.web.WebElementBuilder.withElement(WebElementBuilder.kt:31)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl$lambda$2$lambda$1(WebViewActions.kt:12)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.$r8$lambda$u8-7rf9S5Mm73-5peRydx6RxXRM(Unknown Source:0)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)\n\tat io.github.kakaocup.kakao.web.KWebView.invoke(KWebView.kt:32)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl$lambda$2(WebViewActions.kt:11)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.$r8$lambda$fy61aN7PrcWrEPlL87gF114cWr8(Unknown Source:0)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)\n\tat io.qameta.allure.kotlin.Allure.step(Allure.kt:60)\n\tat ru.dodopizza.app.kaspresso.actions.WebViewActionsKt.hasUrl(WebViewActions.kt:10)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen.verifyDocumentIsLoaded$lambda$8(LegalDocumentsScreen.kt:39)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen.$r8$lambda$Gwj2ZGVAERi3vsEMGrI2hPv-9Xg(Unknown Source:0)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)\n\tat com.kaspersky.kaspresso.flakysafety.algorithm.FlakySafetyAlgorithm.invokeFlakySafely(FlakySafetyAlgorithm.kt:32)\n\tat com.kaspersky.kaspresso.flakysafety.FlakySafetyProviderGlobalImpl.flakySafely(FlakySafetyProviderGlobalImpl.kt:94)\n\tat com.kaspersky.kaspresso.testcases.core.testcontext.BaseTestContext.flakySafely(Unknown Source:12)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely(KBaseScreen.kt:110)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely$lambda$6(KBaseScreen.kt:121)\n\tat ru.dodopizza.app.screens.KBaseScreen.$r8$lambda$vET64TwbDNlN24OpgIU1qNt82oI(Unknown Source:0)\n\tat ru.dodopizza.app.screens.KBaseScreen$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)\n\tat com.kaspersky.kaspresso.testcases.core.testcontext.TestContext.step(TestContext.kt:39)\n\tat ru.dodopizza.app.screens.KBaseScreen.step(KBaseScreen.kt:85)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely(KBaseScreen.kt:120)\n\tat ru.dodopizza.app.screens.KBaseScreen.flakySafely$default(KBaseScreen.kt:112)\n\tat ru.dodopizza.app.screens.documents.LegalDocumentsScreen.verifyDocumentIsLoaded(LegalDocumentsScreen.kt:35)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument$lambda$5$lambda$4(LegalDocumentsTest.kt:50)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.$r8$lambda$RTF1MgiPAnWjCrU1v-wQfWlA9yU(Unknown Source:0)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest$$ExternalSyntheticLambda6.invoke(D8$$SyntheticClass:0)\n\tat io.github.kakaocup.kakao.screen.Screen.invoke(Screen.kt:119)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument$lambda$5(LegalDocumentsTest.kt:47)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.$r8$lambda$KfN2FHToTEt8QCanbiPJykaGh8o(Unknown Source:0)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest$$ExternalSyntheticLambda8.invoke(D8$$SyntheticClass:0)\n\tat ru.dodopizza.app.tests.BaseTest.test$lambda$1(BaseTest.kt:112)\n\tat ru.dodopizza.app.tests.BaseTest.$r8$lambda$F7Ro8yOKlytXtBztt90jaQOUFwc(Unknown Source:0)\n\tat ru.dodopizza.app.tests.BaseTest$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)\n\tat com.kaspersky.kaspresso.testcases.core.TestRunner.runMainTestSection(TestRunner.kt:153)\n\tat com.kaspersky.kaspresso.testcases.core.TestRunner.run(TestRunner.kt:66)\n\tat com.kaspersky.kaspresso.testcases.core.sections.MainTestSection.run(MainTestSection.kt:29)\n\tat com.kaspersky.kaspresso.testcases.api.testcase.BaseTestCase.run(BaseTestCase.kt:92)\n\tat com.kaspersky.kaspresso.testcases.api.testcase.BaseTestCase.run$default(BaseTestCase.kt:87)\n\tat ru.dodopizza.app.tests.BaseTest.test(BaseTest.kt:98)\n\tat ru.dodopizza.app.tests.BaseTest.test$default(BaseTest.kt:92)\n\tat ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument(LegalDocumentsTest.kt:45)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:272)\n\tat androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:271)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.withDisposableContent(ComposeUiTest.android.kt:505)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1$1.invoke(ComposeUiTest.android.kt:333)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withComposeIdlingResource(ComposeUiTest.android.kt:385)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withComposeIdlingResource(ComposeUiTest.android.kt:219)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1.invoke(ComposeUiTest.android.kt:332)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withWindowRecomposer(ComposeUiTest.android.kt:359)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withWindowRecomposer(ComposeUiTest.android.kt:219)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1.invoke(ComposeUiTest.android.kt:331)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withTestCoroutines(ComposeUiTest.android.kt:372)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withTestCoroutines(ComposeUiTest.android.kt:219)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1.invoke(ComposeUiTest.android.kt:330)\n\tat androidx.compose.ui.test.EspressoLink.withStrategy(EspressoLink.android.kt:66)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1.invoke(ComposeUiTest.android.kt:329)\n\tat androidx.compose.ui.test.IdlingResourceRegistry.withRegistry(IdlingResourceRegistry.jvm.kt:155)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1.invoke(ComposeUiTest.android.kt:328)\n\tat androidx.compose.ui.test.ComposeRootRegistry.withRegistry(ComposeRootRegistry.android.kt:146)\n\tat androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:327)\n\tat androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat ru.dodopizza.app.junit.rules.base.BaseRule$statement$1.evaluate(BaseRule.kt:26)\n\tat org.junit.rules.RunRules.evaluate(RunRules.java:20)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)\nCaused by: java.util.concurrent.TimeoutException: Waited 10 seconds (plus 934982 nanoseconds delay) for TransformFuture@28110b2[status=PENDING, info=[inputFuture=[SettableFuture@fb68803[status=PENDING]], function=[androidx.test.espresso.web.action.AtomAction$3@37b0380]]]\n\tat androidx.test.espresso.web.internal.deps.guava.util.concurrent.AbstractFuture.get(AbstractFuture.java:74)\n\tat androidx.test.espresso.web.internal.deps.guava.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:2)\n\tat androidx.test.espresso.web.action.AtomAction.get(AtomAction.java:4)\n\tat androidx.test.espresso.web.sugar.Web$WebInteraction.doEval(Web.java:6)\n\t... 119 more\n"
+          },
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.profile.LegalDocumentsTest"
-        },
-        {
-            "name": "testMethod",
-            "value": "ruLegalOfferDocument"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.profile.LegalDocumentsTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(423)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "106968"
+          "name": "Проверить, что в WebView загружен url-адрес 'https://dodopizza.ru/Sochi/legal/offer'",
+          "start": 1741000445098,
+          "stop": 1741000449659,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "86a1e1cc-3d3a-408f-a903-d9107e41ae82-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "8d6228ff-c986-43d5-b6b0-48826dd213ca",
+  "historyId": "c1dc7fc7f657420325a4bc81dfd66364",
+  "fullName": "ru.dodopizza.app.tests.profile.LegalDocumentsTest.ruLegalOfferDocument",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.profile"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.profile.LegalDocumentsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "ruLegalOfferDocument"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.profile.LegalDocumentsTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(423)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "106968"
+    }
+  ]
 }

@@ -1,233 +1,233 @@
 {
-    "name": "Баннер об удалении профиля",
-    "start": 1741000412624,
-    "stop": 1741000442384,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Баннер об удалении профиля",
+  "start": 1741000412624,
+  "stop": 1741000442384,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000415581,
+      "stop": 1741000421892,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000415581,
-            "stop": 1741000421892,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000416764,
-                    "stop": 1741000417392,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000417392,
-                    "stop": 1741000417697,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000417698,
-                    "stop": 1741000418290,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000418292,
-                    "stop": 1741000418845,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000416764,
+          "stop": 1741000417392,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение на экране настроек профиля",
-            "start": 1741000421892,
-            "stop": 1741000439323,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Открыть приложение на экране профиля",
-                    "start": 1741000421893,
-                    "stop": 1741000433691,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [
-                        {
-                            "name": "Проверить, что экран профиля пользователя успешно загружен",
-                            "start": 1741000423537,
-                            "stop": 1741000433690,
-                            "stage": "finished",
-                            "description": null,
-                            "descriptionHtml": null,
-                            "status": "passed",
-                            "statusDetails": null,
-                            "steps": [],
-                            "attachments": [],
-                            "parameters": []
-                        }
-                    ],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Нажать на кнопку 'Настройки'",
-                    "start": 1741000433691,
-                    "stop": 1741000439296,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Проверить, что экран настроек профиля успешно загружен",
-                    "start": 1741000439308,
-                    "stop": 1741000439323,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000417392,
+          "stop": 1741000417697,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Нажать на кнопку 'Удалить аккаунт'",
-            "start": 1741000439323,
-            "stop": 1741000440475,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000417698,
+          "stop": 1741000418290,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Нажать на кнопку подтверждения действия",
-            "start": 1741000440476,
-            "stop": 1741000441044,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
-        },
-        {
-            "name": "Проверить, что баннер подтверждения удаления аккаунта успешно загружен",
-            "start": 1741000441045,
-            "stop": 1741000441059,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000418292,
+          "stop": 1741000418845,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение на экране настроек профиля",
+      "start": 1741000421892,
+      "stop": 1741000439323,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "0d50d83b-f752-4cce-84df-310ef45717e0-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Открыть приложение на экране профиля",
+          "start": 1741000421893,
+          "stop": 1741000433691,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [
+            {
+              "name": "Проверить, что экран профиля пользователя успешно загружен",
+              "start": 1741000423537,
+              "stop": 1741000433690,
+              "stage": "finished",
+              "description": null,
+              "descriptionHtml": null,
+              "status": "passed",
+              "statusDetails": null,
+              "steps": [],
+              "attachments": [],
+              "parameters": []
+            }
+          ],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Нажать на кнопку 'Настройки'",
+          "start": 1741000433691,
+          "stop": 1741000439296,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Проверить, что экран настроек профиля успешно загружен",
+          "start": 1741000439308,
+          "stop": 1741000439323,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "d37e4152-c278-483a-a887-761177c73cab",
-    "historyId": "7a7b3f7344fff319e9e2368a76b29aed",
-    "fullName": "ru.dodopizza.app.tests.profile.DeleteProfileTest.displayDeleteProfileBanner",
-    "labels": [
-        {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.profile"
-        },
-        {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.profile.DeleteProfileTest"
-        },
-        {
-            "name": "testMethod",
-            "value": "displayDeleteProfileBanner"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.profile.DeleteProfileTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(408)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "855455"
-        }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Нажать на кнопку 'Удалить аккаунт'",
+      "start": 1741000439323,
+      "stop": 1741000440475,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Нажать на кнопку подтверждения действия",
+      "start": 1741000440476,
+      "stop": 1741000441044,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что баннер подтверждения удаления аккаунта успешно загружен",
+      "start": 1741000441045,
+      "stop": 1741000441059,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "0d50d83b-f752-4cce-84df-310ef45717e0-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "d37e4152-c278-483a-a887-761177c73cab",
+  "historyId": "7a7b3f7344fff319e9e2368a76b29aed",
+  "fullName": "ru.dodopizza.app.tests.profile.DeleteProfileTest.displayDeleteProfileBanner",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.profile"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.profile.DeleteProfileTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "displayDeleteProfileBanner"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.profile.DeleteProfileTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(408)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "855455"
+    }
+  ]
 }

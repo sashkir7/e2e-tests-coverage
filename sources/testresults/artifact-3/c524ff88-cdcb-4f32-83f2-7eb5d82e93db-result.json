@@ -1,220 +1,220 @@
 {
-    "name": "Отображение миссий (социальная или продуктовая) в профиле",
-    "start": 1741000450041,
-    "stop": 1741000468983,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Отображение миссий (социальная или продуктовая) в профиле",
+  "start": 1741000450041,
+  "stop": 1741000468983,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000453141,
+      "stop": 1741000459362,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000453141,
-            "stop": 1741000459362,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000454188,
-                    "stop": 1741000454891,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000454892,
-                    "stop": 1741000455287,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000455289,
-                    "stop": 1741000455886,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000455887,
-                    "stop": 1741000456435,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000454188,
+          "stop": 1741000454891,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение на экране профиля",
-            "start": 1741000459362,
-            "stop": 1741000465510,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что экран профиля пользователя успешно загружен",
-                    "start": 1741000461884,
-                    "stop": 1741000465510,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000454892,
+          "stop": 1741000455287,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что количество миссий '2'",
-            "start": 1741000465511,
-            "stop": 1741000467689,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000455289,
+          "stop": 1741000455886,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Получить из списка миссий 'Социальная миссия'",
-            "start": 1741000467689,
-            "stop": 1741000468148,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что награда за миссию '+100'",
-                    "start": 1741000468054,
-                    "stop": 1741000468087,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Проверить, что название миссии 'Социальная миссия'",
-                    "start": 1741000468088,
-                    "stop": 1741000468105,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Проверить, что текст кнопки действия 'Приступить'",
-                    "start": 1741000468115,
-                    "stop": 1741000468148,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000455887,
+          "stop": 1741000456435,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение на экране профиля",
+      "start": 1741000459362,
+      "stop": 1741000465510,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "2211e072-f500-4308-8a32-56768358384c-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Проверить, что экран профиля пользователя успешно загружен",
+          "start": 1741000461884,
+          "stop": 1741000465510,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "c524ff88-cdcb-4f32-83f2-7eb5d82e93db",
-    "historyId": "87b1e124069c694a6bd1bb0719e47f14",
-    "fullName": "ru.dodopizza.app.tests.missions.MissionsTest.displayMissions",
-    "labels": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что количество миссий '2'",
+      "start": 1741000465511,
+      "stop": 1741000467689,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Получить из списка миссий 'Социальная миссия'",
+      "start": 1741000467689,
+      "stop": 1741000468148,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.missions"
+          "name": "Проверить, что награда за миссию '+100'",
+          "start": 1741000468054,
+          "stop": 1741000468087,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.missions.MissionsTest"
+          "name": "Проверить, что название миссии 'Социальная миссия'",
+          "start": 1741000468088,
+          "stop": 1741000468105,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "testMethod",
-            "value": "displayMissions"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.missions.MissionsTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(435)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "708516"
+          "name": "Проверить, что текст кнопки действия 'Приступить'",
+          "start": 1741000468115,
+          "stop": 1741000468148,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "2211e072-f500-4308-8a32-56768358384c-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "c524ff88-cdcb-4f32-83f2-7eb5d82e93db",
+  "historyId": "87b1e124069c694a6bd1bb0719e47f14",
+  "fullName": "ru.dodopizza.app.tests.missions.MissionsTest.displayMissions",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.missions"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.missions.MissionsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "displayMissions"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.missions.MissionsTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(435)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "708516"
+    }
+  ]
 }

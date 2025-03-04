@@ -1,7 +1,5 @@
 {
-  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
-    "self"
-  ],
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": ["self"],
   "ru.dodopizza.app.screens.profile.self.components.ProfileMenuComponent": [
     "loyaltyTitle"
   ]

@@ -1,180 +1,180 @@
 {
-    "name": "Переход на экран из виджета - История заказов",
-    "start": 1741000407337,
-    "stop": 1741000436776,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Переход на экран из виджета - История заказов",
+  "start": 1741000407337,
+  "stop": 1741000436776,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000411877,
+      "stop": 1741000419875,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000411877,
-            "stop": 1741000419875,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000412992,
-                    "stop": 1741000413612,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000413612,
-                    "stop": 1741000414800,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000414801,
-                    "stop": 1741000415415,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000415416,
-                    "stop": 1741000415984,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000412992,
+          "stop": 1741000413612,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение на экране профиля",
-            "start": 1741000419875,
-            "stop": 1741000429113,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что экран профиля пользователя успешно загружен",
-                    "start": 1741000420603,
-                    "stop": 1741000429113,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000413612,
+          "stop": 1741000414800,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Нажать на секцию 'Мои заказы'",
-            "start": 1741000429113,
-            "stop": 1741000435454,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000414801,
+          "stop": 1741000415415,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что экран истории заказов успешно загружен",
-            "start": 1741000435456,
-            "stop": 1741000435467,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000415416,
+          "stop": 1741000415984,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение на экране профиля",
+      "start": 1741000419875,
+      "stop": 1741000429113,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "693caac8-b78a-4470-8ba8-6f742ce8ddf1-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Проверить, что экран профиля пользователя успешно загружен",
+          "start": 1741000420603,
+          "stop": 1741000429113,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "9f069216-b4c6-4c92-825f-e86b5481a4ab",
-    "historyId": "39a53a33614f6b66edaefa43b6ce868d",
-    "fullName": "ru.dodopizza.app.tests.profile.ProfileWidgetTest.goToHistory",
-    "labels": [
-        {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.profile"
-        },
-        {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.profile.ProfileWidgetTest"
-        },
-        {
-            "name": "testMethod",
-            "value": "goToHistory"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.profile.ProfileWidgetTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(380)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "742050"
-        }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Нажать на секцию 'Мои заказы'",
+      "start": 1741000429113,
+      "stop": 1741000435454,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что экран истории заказов успешно загружен",
+      "start": 1741000435456,
+      "stop": 1741000435467,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "693caac8-b78a-4470-8ba8-6f742ce8ddf1-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "9f069216-b4c6-4c92-825f-e86b5481a4ab",
+  "historyId": "39a53a33614f6b66edaefa43b6ce868d",
+  "fullName": "ru.dodopizza.app.tests.profile.ProfileWidgetTest.goToHistory",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.profile"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.profile.ProfileWidgetTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "goToHistory"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.profile.ProfileWidgetTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(380)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "742050"
+    }
+  ]
 }

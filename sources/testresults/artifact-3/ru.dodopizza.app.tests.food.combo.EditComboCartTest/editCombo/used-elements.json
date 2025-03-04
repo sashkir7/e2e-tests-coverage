@@ -1,16 +1,12 @@
 {
-  "ru.dodopizza.app.screens.cart.ShoppingCartScreen": [
-    "cartProducts"
-  ],
+  "ru.dodopizza.app.screens.cart.ShoppingCartScreen": ["cartProducts"],
   "ru.dodopizza.app.screens.cart.items.ComboCartProductItem": [
     "leftActionButton"
   ],
   "ru.dodopizza.app.screens.product.constructor.combo.ComboTemplateConstructorScreen": [
     "comboSlotRecycler"
   ],
-  "ru.dodopizza.app.screens.splash.SplashScreen": [
-    "self"
-  ],
+  "ru.dodopizza.app.screens.splash.SplashScreen": ["self"],
   "ru.dodopizza.app.screens.product.card.combo.ComboProductCardScreen": [
     "addToCartButton",
     "comboRecycler",
@@ -24,7 +20,5 @@
   "ru.dodopizza.app.screens.product.constructor.combo.CustomizeTemplatePizzaItem": [
     "selectButton"
   ],
-  "ru.dodopizza.app.screens.product.card.combo.DefaultComboSlotItem": [
-    "title"
-  ]
+  "ru.dodopizza.app.screens.product.card.combo.DefaultComboSlotItem": ["title"]
 }

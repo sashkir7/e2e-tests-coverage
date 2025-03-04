@@ -1,180 +1,180 @@
 {
-    "name": "Отображение сгорания коинов 'завтра' на виджете коинстора",
-    "start": 1741000465705,
-    "stop": 1741000489326,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Отображение сгорания коинов 'завтра' на виджете коинстора",
+  "start": 1741000465705,
+  "stop": 1741000489326,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000468809,
+      "stop": 1741000475923,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000468809,
-            "stop": 1741000475923,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000469302,
-                    "stop": 1741000469930,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000469930,
-                    "stop": 1741000470295,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000470298,
-                    "stop": 1741000470949,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Изменение баланса программы лояльности (додокоины)",
-                    "start": 1741000470964,
-                    "stop": 1741000471765,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000471767,
-                    "stop": 1741000472381,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000469302,
+          "stop": 1741000469930,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение на экране профиля",
-            "start": 1741000475924,
-            "stop": 1741000488628,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что экран профиля пользователя успешно загружен",
-                    "start": 1741000485995,
-                    "stop": 1741000488628,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000469930,
+          "stop": 1741000470295,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что заголовок уведомления программы лояльности '100 додокоинов сгорят завтра'",
-            "start": 1741000488628,
-            "stop": 1741000488634,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000470298,
+          "stop": 1741000470949,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Изменение баланса программы лояльности (додокоины)",
+          "start": 1741000470964,
+          "stop": 1741000471765,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000471767,
+          "stop": 1741000472381,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение на экране профиля",
+      "start": 1741000475924,
+      "stop": 1741000488628,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "a0ac8dea-7ed2-4919-9f32-14fd4834d166-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Проверить, что экран профиля пользователя успешно загружен",
+          "start": 1741000485995,
+          "stop": 1741000488628,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "1bf1ae23-911f-4e29-9ecf-41a32f7bbc20",
-    "historyId": "bb3e03445a1389b5d38951a331bb6cad",
-    "fullName": "ru.dodopizza.app.tests.loyalty.LoyaltyProfileTest.coinExpirationForTomorrow",
-    "labels": [
-        {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.loyalty"
-        },
-        {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.loyalty.LoyaltyProfileTest"
-        },
-        {
-            "name": "testMethod",
-            "value": "coinExpirationForTomorrow"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.loyalty.LoyaltyProfileTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(411)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "362700"
-        }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что заголовок уведомления программы лояльности '100 додокоинов сгорят завтра'",
+      "start": 1741000488628,
+      "stop": 1741000488634,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "a0ac8dea-7ed2-4919-9f32-14fd4834d166-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "1bf1ae23-911f-4e29-9ecf-41a32f7bbc20",
+  "historyId": "bb3e03445a1389b5d38951a331bb6cad",
+  "fullName": "ru.dodopizza.app.tests.loyalty.LoyaltyProfileTest.coinExpirationForTomorrow",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.loyalty"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.loyalty.LoyaltyProfileTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "coinExpirationForTomorrow"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.loyalty.LoyaltyProfileTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(411)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "362700"
+    }
+  ]
 }

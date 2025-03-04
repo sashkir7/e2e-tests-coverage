@@ -1,10 +1,6 @@
 {
-  "ru.dodopizza.app.screens.splash.SplashScreen": [
-    "self"
-  ],
-  "ru.dodopizza.app.screens.cart.ShoppingCartScreen": [
-    "cartProducts"
-  ],
+  "ru.dodopizza.app.screens.splash.SplashScreen": ["self"],
+  "ru.dodopizza.app.screens.cart.ShoppingCartScreen": ["cartProducts"],
   "ru.dodopizza.app.screens.cart.items.PizzaCartProductItem": [
     "editButton",
     "desc"

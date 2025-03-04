@@ -1,232 +1,232 @@
 {
-    "name": "Информация о начислении коинов в корзине при заказе на доставку",
-    "start": 1741000477301,
-    "stop": 1741000498778,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Информация о начислении коинов в корзине при заказе на доставку",
+  "start": 1741000477301,
+  "stop": 1741000498778,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000481157,
+      "stop": 1741000491833,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000481157,
-            "stop": 1741000491833,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000482097,
-                    "stop": 1741000482762,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000482763,
-                    "stop": 1741000483062,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000483064,
-                    "stop": 1741000483845,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Запрос предложений по адресу",
-                    "start": 1741000483851,
-                    "stop": 1741000484580,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Выбор адреса доставки",
-                    "start": 1741000484581,
-                    "stop": 1741000484981,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение адреса доставки",
-                    "start": 1741000484982,
-                    "stop": 1741000485232,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Выбор адреса доставки",
-                    "start": 1741000485235,
-                    "stop": 1741000486900,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Добавить товар 'Песто, средняя 30 см, традиционное тесто' в корзину",
-                    "start": 1741000486903,
-                    "stop": 1741000487964,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000487965,
-                    "stop": 1741000488537,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000482097,
+          "stop": 1741000482762,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение на экране корзины",
-            "start": 1741000491834,
-            "stop": 1741000498110,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что экран корзины успешно загружен",
-                    "start": 1741000495200,
-                    "stop": 1741000498110,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000482763,
+          "stop": 1741000483062,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что сумма вознаграждения '+42' (додокоины)",
-            "start": 1741000498110,
-            "stop": 1741000498129,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000483064,
+          "stop": 1741000483845,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Запрос предложений по адресу",
+          "start": 1741000483851,
+          "stop": 1741000484580,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Выбор адреса доставки",
+          "start": 1741000484581,
+          "stop": 1741000484981,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Сохранение адреса доставки",
+          "start": 1741000484982,
+          "stop": 1741000485232,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Выбор адреса доставки",
+          "start": 1741000485235,
+          "stop": 1741000486900,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Добавить товар 'Песто, средняя 30 см, традиционное тесто' в корзину",
+          "start": 1741000486903,
+          "stop": 1741000487964,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
+        },
+        {
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000487965,
+          "stop": 1741000488537,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение на экране корзины",
+      "start": 1741000491834,
+      "stop": 1741000498110,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "335fb828-5d3d-401a-ab90-d72a21eee7c3-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Проверить, что экран корзины успешно загружен",
+          "start": 1741000495200,
+          "stop": 1741000498110,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "f7ff59b2-58d4-4c41-8e2f-a86eb9c30901",
-    "historyId": "700b9b6b0333276eb43decb78f61b1ee",
-    "fullName": "ru.dodopizza.app.tests.loyalty.LoyaltyCartTest.deliveryRewardSum",
-    "labels": [
-        {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.loyalty"
-        },
-        {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.loyalty.LoyaltyCartTest"
-        },
-        {
-            "name": "testMethod",
-            "value": "deliveryRewardSum"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.loyalty.LoyaltyCartTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(439)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "737278"
-        }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что сумма вознаграждения '+42' (додокоины)",
+      "start": 1741000498110,
+      "stop": 1741000498129,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "335fb828-5d3d-401a-ab90-d72a21eee7c3-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "f7ff59b2-58d4-4c41-8e2f-a86eb9c30901",
+  "historyId": "700b9b6b0333276eb43decb78f61b1ee",
+  "fullName": "ru.dodopizza.app.tests.loyalty.LoyaltyCartTest.deliveryRewardSum",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.loyalty"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.loyalty.LoyaltyCartTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "deliveryRewardSum"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.loyalty.LoyaltyCartTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(439)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "737278"
+    }
+  ]
 }

@@ -1,180 +1,180 @@
 {
-    "name": "Уведомление о начислении коинов на экране меню",
-    "start": 1741000445136,
-    "stop": 1741000459751,
-    "stage": "finished",
-    "description": null,
-    "descriptionHtml": null,
-    "status": "passed",
-    "statusDetails": null,
-    "steps": [
+  "name": "Уведомление о начислении коинов на экране меню",
+  "start": 1741000445136,
+  "stop": 1741000459751,
+  "stage": "finished",
+  "description": null,
+  "descriptionHtml": null,
+  "status": "passed",
+  "statusDetails": null,
+  "steps": [
+    {
+      "name": "Подготовка состояния пользователя",
+      "start": 1741000448471,
+      "stop": 1741000454074,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "name": "Подготовка состояния пользователя",
-            "start": 1741000448471,
-            "stop": 1741000454074,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Вызов API: Получение смс-кода (авторизация)",
-                    "start": 1741000448933,
-                    "stop": 1741000449548,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Завершение авторизации (auth-токен)",
-                    "start": 1741000449548,
-                    "stop": 1741000449941,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сохранение имени пользователю",
-                    "start": 1741000449943,
-                    "stop": 1741000450591,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                },
-                {
-                    "name": "Вызов API: Сброс кэшей на MAPI",
-                    "start": 1741000450593,
-                    "stop": 1741000451169,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Получение смс-кода (авторизация)",
+          "start": 1741000448933,
+          "stop": 1741000449548,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Открыть приложение",
-            "start": 1741000454074,
-            "stop": 1741000459051,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-                {
-                    "name": "Проверить, что splash-экран не отображается",
-                    "start": 1741000454679,
-                    "stop": 1741000459051,
-                    "stage": "finished",
-                    "description": null,
-                    "descriptionHtml": null,
-                    "status": "passed",
-                    "statusDetails": null,
-                    "steps": [],
-                    "attachments": [],
-                    "parameters": []
-                }
-            ],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Завершение авторизации (auth-токен)",
+          "start": 1741000449548,
+          "stop": 1741000449941,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что отображается иконка нотификации",
-            "start": 1741000459066,
-            "stop": 1741000459091,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сохранение имени пользователю",
+          "start": 1741000449943,
+          "stop": 1741000450591,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         },
         {
-            "name": "Проверить, что отображается заголовок нотификации 'Ура! Додокоинов хватает на подарок. Можно тратить'",
-            "start": 1741000459092,
-            "stop": 1741000459114,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [],
-            "attachments": [],
-            "parameters": []
+          "name": "Вызов API: Сброс кэшей на MAPI",
+          "start": 1741000450593,
+          "stop": 1741000451169,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "attachments": [
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Открыть приложение",
+      "start": 1741000454074,
+      "stop": 1741000459051,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [
         {
-            "source": "d81fd28b-247a-494a-a490-d680b54cc36b-attachment.txt",
-            "name": "USER STATE",
-            "type": "text/plain"
+          "name": "Проверить, что splash-экран не отображается",
+          "start": 1741000454679,
+          "stop": 1741000459051,
+          "stage": "finished",
+          "description": null,
+          "descriptionHtml": null,
+          "status": "passed",
+          "statusDetails": null,
+          "steps": [],
+          "attachments": [],
+          "parameters": []
         }
-    ],
-    "parameters": [],
-    "uuid": "761739f8-0644-4574-b2f9-9a53f07a23e0",
-    "historyId": "47f3db107435e2f69eb8bdbc3f280ed1",
-    "fullName": "ru.dodopizza.app.tests.notification.NotificationTest.accrualDodocoins",
-    "labels": [
-        {
-            "name": "package",
-            "value": "ru.dodopizza.app.tests.notification"
-        },
-        {
-            "name": "testClass",
-            "value": "ru.dodopizza.app.tests.notification.NotificationTest"
-        },
-        {
-            "name": "testMethod",
-            "value": "accrualDodocoins"
-        },
-        {
-            "name": "suite",
-            "value": "ru.dodopizza.app.tests.notification.NotificationTest"
-        },
-        {
-            "name": "host",
-            "value": "localhost"
-        },
-        {
-            "name": "thread",
-            "value": "Instr: ru.dodopizza.app.DodoTestRunner(406)"
-        },
-        {
-            "name": "framework",
-            "value": "junit4"
-        },
-        {
-            "name": "language",
-            "value": "kotlin"
-        },
-        {
-            "name": "AS_ID",
-            "value": "857087"
-        }
-    ]
+      ],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что отображается иконка нотификации",
+      "start": 1741000459066,
+      "stop": 1741000459091,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    },
+    {
+      "name": "Проверить, что отображается заголовок нотификации 'Ура! Додокоинов хватает на подарок. Можно тратить'",
+      "start": 1741000459092,
+      "stop": 1741000459114,
+      "stage": "finished",
+      "description": null,
+      "descriptionHtml": null,
+      "status": "passed",
+      "statusDetails": null,
+      "steps": [],
+      "attachments": [],
+      "parameters": []
+    }
+  ],
+  "attachments": [
+    {
+      "source": "d81fd28b-247a-494a-a490-d680b54cc36b-attachment.txt",
+      "name": "USER STATE",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "uuid": "761739f8-0644-4574-b2f9-9a53f07a23e0",
+  "historyId": "47f3db107435e2f69eb8bdbc3f280ed1",
+  "fullName": "ru.dodopizza.app.tests.notification.NotificationTest.accrualDodocoins",
+  "labels": [
+    {
+      "name": "package",
+      "value": "ru.dodopizza.app.tests.notification"
+    },
+    {
+      "name": "testClass",
+      "value": "ru.dodopizza.app.tests.notification.NotificationTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "accrualDodocoins"
+    },
+    {
+      "name": "suite",
+      "value": "ru.dodopizza.app.tests.notification.NotificationTest"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "thread",
+      "value": "Instr: ru.dodopizza.app.DodoTestRunner(406)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "kotlin"
+    },
+    {
+      "name": "AS_ID",
+      "value": "857087"
+    }
+  ]
 }

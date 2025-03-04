@@ -1,8 +1,4 @@
 {
-  "ru.dodopizza.app.screens.foodmenu.self.FoodMenuScreen": [
-    "products"
-  ],
-  "ru.dodopizza.app.screens.splash.SplashScreen": [
-    "self"
-  ]
+  "ru.dodopizza.app.screens.foodmenu.self.FoodMenuScreen": ["products"],
+  "ru.dodopizza.app.screens.splash.SplashScreen": ["self"]
 }
