@@ -161,9 +161,9 @@ function run() {
   })
 }
 function justDoIt() {
-  var rawCoverage = (0, parsesources_1.default)('./../sources/project/screens')
+  var rawCoverage = (0, parsesources_1.default)('./sources/project/screens')
   var testsCoverage = (0, parsetestresults_1.default)(
-    './../sources/testresults/artifact-3'
+    './sources/testresults/artifact-3'
   )
   // "/Users/alx.krw/Downloads/artifact-3")
   var sumPercents = 0

@@ -21,10 +21,10 @@ export async function run(): Promise<void> {
 
 function justDoIt() {
   let rawCoverage: Map<string, Set<string>> = parseAndroidRawSources(
-    './../sources/project/screens'
+    './sources/project/screens'
   )
   let testsCoverage: Map<string, Set<string>> = parseAndroidTestResults(
-    './../sources/testresults/artifact-3'
+    './sources/testresults/artifact-3'
   )
   // "/Users/alx.krw/Downloads/artifact-3")
 
