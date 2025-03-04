@@ -1,0 +1,9 @@
+{
+  "ru.dodopizza.app.screens.splash.SplashScreen": [
+    "self"
+  ],
+  "ru.dodopizza.app.screens.foodmenu.components.InAppNotificationComponent": [
+    "icon",
+    "title"
+  ]
+}

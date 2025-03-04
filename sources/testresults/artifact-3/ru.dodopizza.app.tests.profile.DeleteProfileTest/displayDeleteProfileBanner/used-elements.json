@@ -1,0 +1,13 @@
+{
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "settingsButton",
+    "self"
+  ],
+  "ru.dodopizza.app.screens.profile.settings.ProfileSettingsScreen": [
+    "deleteAccountButton",
+    "logoutButton"
+  ],
+  "ru.dodopizza.app.screens.profile.settings.ConfirmDeletionProfileComponent": [
+    "self"
+  ]
+}

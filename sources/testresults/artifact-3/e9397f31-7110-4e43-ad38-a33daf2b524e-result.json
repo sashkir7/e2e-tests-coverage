@@ -1,0 +1,246 @@
+{
+    "name": "RU. Авторизация в России с Российским номером.",
+    "start": 1741000490920,
+    "stop": 1741000513380,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Подготовка состояния пользователя",
+            "start": 1741000493483,
+            "stop": 1741000498682,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Вызов API: Получение смс-кода (авторизация)",
+                    "start": 1741000493930,
+                    "stop": 1741000494588,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Завершение авторизации (auth-токен)",
+                    "start": 1741000494589,
+                    "stop": 1741000494847,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сохранение имени пользователю",
+                    "start": 1741000494850,
+                    "stop": 1741000495451,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сброс кэшей на MAPI",
+                    "start": 1741000495452,
+                    "stop": 1741000495993,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Открыть приложение на экране профиля",
+            "start": 1741000498682,
+            "stop": 1741000504521,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что экран профиля пользователя успешно загружен",
+                    "start": 1741000499529,
+                    "stop": 1741000504521,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку 'Указать телефон'",
+            "start": 1741000504521,
+            "stop": 1741000506158,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Авторизоваться под номером +79999999977",
+            "start": 1741000506159,
+            "stop": 1741000508210,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что экран ввода номера телефона успешно загружен",
+                    "start": 1741000506160,
+                    "stop": 1741000506163,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Ввести номер телефона '9999999977'",
+                    "start": 1741000506164,
+                    "stop": 1741000506929,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Нажать на кнопку 'Продолжить'",
+                    "start": 1741000506937,
+                    "stop": 1741000506959,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Ввести пин-код '1234'",
+                    "start": 1741000506961,
+                    "stop": 1741000508209,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Проверить, что пользователь авторизован",
+            "start": 1741000508210,
+            "stop": 1741000512633,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [
+        {
+            "source": "e2374905-29ba-44d3-85f7-938cb5e32854-attachment.txt",
+            "name": "USER STATE",
+            "type": "text/plain"
+        }
+    ],
+    "parameters": [],
+    "uuid": "e9397f31-7110-4e43-ad38-a33daf2b524e",
+    "historyId": "e62a2d7956f0fa8c3dfd04f3b59c20f",
+    "fullName": "ru.dodopizza.app.tests.login.LoginTest.authorizationRuRu",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.dodopizza.app.tests.login"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.dodopizza.app.tests.login.LoginTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "authorizationRuRu"
+        },
+        {
+            "name": "suite",
+            "value": "ru.dodopizza.app.tests.login.LoginTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: ru.dodopizza.app.DodoTestRunner(424)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "737218"
+        }
+    ]
+}

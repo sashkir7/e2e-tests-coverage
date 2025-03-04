@@ -1,0 +1,12 @@
+{
+  "ru.dodopizza.app.screens.profile.self.ProfileScreen": [
+    "unauthSupportButton",
+    "self"
+  ],
+  "ru.dodopizza.app.screens.login.PhoneNumberLoginScreen": [
+    "phoneNumberInput"
+  ],
+  "ru.dodopizza.app.screens.profile.self.components.SupportComponent": [
+    "chatButton"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+    "name": "Запрашивается авторизация, при попытке открыть чат неавторизованным пользователем",
+    "start": 1741000441124,
+    "stop": 1741000454086,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Открыть приложение на экране профиля",
+            "start": 1741000445354,
+            "stop": 1741000451292,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что экран профиля пользователя успешно загружен",
+                    "start": 1741000446369,
+                    "stop": 1741000451292,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку 'Поддержка'",
+            "start": 1741000451292,
+            "stop": 1741000452326,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку чата",
+            "start": 1741000452326,
+            "stop": 1741000453242,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Проверить, что экран ввода номера телефона успешно загружен",
+            "start": 1741000453243,
+            "stop": 1741000453248,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [
+        {
+            "source": "630900a2-9cf2-47ad-bd0f-ab6e94a98804-attachment.txt",
+            "name": "USER STATE",
+            "type": "text/plain"
+        }
+    ],
+    "parameters": [],
+    "uuid": "c5ffde77-ec40-4a53-8d9b-72761fb4cf95",
+    "historyId": "8fef02e4557aea0eed372478b8b6bc99",
+    "fullName": "ru.dodopizza.app.tests.profile.ChatTest.authRequired",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.dodopizza.app.tests.profile"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.dodopizza.app.tests.profile.ChatTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "authRequired"
+        },
+        {
+            "name": "suite",
+            "value": "ru.dodopizza.app.tests.profile.ChatTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: ru.dodopizza.app.DodoTestRunner(393)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "220680"
+        }
+    ]
+}

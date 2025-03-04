@@ -1,0 +1,271 @@
+{
+    "name": "Выбор типа заказа и адреса на главном экране синхронизируется с чекаутом",
+    "start": 1741000407620,
+    "stop": 1741000445330,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Подготовка состояния пользователя",
+            "start": 1741000412032,
+            "stop": 1741000423318,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Вызов API: Получение смс-кода (авторизация)",
+                    "start": 1741000413101,
+                    "stop": 1741000413691,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Завершение авторизации (auth-токен)",
+                    "start": 1741000413691,
+                    "stop": 1741000414108,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сохранение имени пользователю",
+                    "start": 1741000414110,
+                    "stop": 1741000414819,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Запрос предложений по адресу",
+                    "start": 1741000414821,
+                    "stop": 1741000415808,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Выбор адреса доставки",
+                    "start": 1741000415808,
+                    "stop": 1741000416177,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сохранение адреса доставки",
+                    "start": 1741000416177,
+                    "stop": 1741000416458,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Выбор адреса доставки",
+                    "start": 1741000416460,
+                    "stop": 1741000418547,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Добавить товар 'Додо Микс, средняя 30 см, традиционное тесто' в корзину",
+                    "start": 1741000418552,
+                    "stop": 1741000419722,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                },
+                {
+                    "name": "Вызов API: Сброс кэшей на MAPI",
+                    "start": 1741000419723,
+                    "stop": 1741000420319,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Открыть приложение",
+            "start": 1741000423318,
+            "stop": 1741000434974,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Проверить, что splash-экран не отображается",
+                    "start": 1741000424908,
+                    "stop": 1741000434974,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Проверить, что отображается адрес 'Сочи, Московская улица, 22А'",
+            "start": 1741000435115,
+            "stop": 1741000435362,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку 'Корзина'",
+            "start": 1741000435362,
+            "stop": 1741000438660,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Нажать на кнопку 'Оформить'",
+            "start": 1741000438669,
+            "stop": 1741000444158,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Проверить, что адрес доставки 'Сочи, Московская улица, 22А'",
+            "start": 1741000444166,
+            "stop": 1741000444173,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [
+        {
+            "source": "8f3e390b-e5b0-4934-9adf-23a85273b0c5-attachment.txt",
+            "name": "USER STATE",
+            "type": "text/plain"
+        }
+    ],
+    "parameters": [],
+    "uuid": "c9aae10b-6a9d-4523-9053-3f70d38f3bc0",
+    "historyId": "20da0800d3a3f43dfcdaba3695d1b418",
+    "fullName": "ru.dodopizza.app.tests.delivery.DeliveryTypeTest.switcherSyncWithCheckout",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.dodopizza.app.tests.delivery"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.dodopizza.app.tests.delivery.DeliveryTypeTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "switcherSyncWithCheckout"
+        },
+        {
+            "name": "suite",
+            "value": "ru.dodopizza.app.tests.delivery.DeliveryTypeTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: ru.dodopizza.app.DodoTestRunner(417)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "736805"
+        }
+    ]
+}
