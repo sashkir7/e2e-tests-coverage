@@ -143,16 +143,14 @@ var parsesources_1 = require('./parsesources')
 var parsetestresults_1 = require('./parsetestresults')
 function run() {
   return __awaiter(this, void 0, void 0, function () {
-    var whoToGreet, dir, time
+    var sourcesPath, resultsPath
     return __generator(this, function (_a) {
       try {
-        whoToGreet = core.getInput('who-to-greet', { required: true })
-        core.info('Hello, '.concat(whoToGreet, '! WELCOME!'))
-        dir = process.cwd()
-        core.info(dir)
-        time = new Date().toTimeString()
-        core.setOutput('time', time)
-        justDoIt()
+        sourcesPath = core.getInput('sources-path', { required: true })
+        resultsPath = core.getInput('results-path', { required: true })
+        core.info('sourcesPath = ' + sourcesPath)
+        core.info('resultsPath = ' + resultsPath)
+        justDoIt(sourcesPath, resultsPath)
       } catch (error) {
         if (error instanceof Error) core.setFailed(error.message)
       }
@@ -160,12 +158,9 @@ function run() {
     })
   })
 }
-function justDoIt() {
-  var rawCoverage = (0, parsesources_1.default)('./sources/project/screens')
-  var testsCoverage = (0, parsetestresults_1.default)(
-    './sources/testresults/artifact-3'
-  )
-  // "/Users/alx.krw/Downloads/artifact-3")
+function justDoIt(sourcesPath, resultsPath) {
+  var rawCoverage = (0, parsesources_1.default)(sourcesPath)
+  var testsCoverage = (0, parsetestresults_1.default)(resultsPath)
   var sumPercents = 0
   var percents = new Map()
   rawCoverage.forEach(function (parameters, className) {
