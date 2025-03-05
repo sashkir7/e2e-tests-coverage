@@ -14,11 +14,14 @@ export async function run(): Promise<void> {
     core.info(`sourcesPath = ` + sourcesPath)
     core.info(`resultsPath = ` + resultsPath)
 
-    core.summary.addHeading('HEADING')
-    core.summary.addDetails('LABEL', 'CONTENT')
-    core.summary.addRaw('RAW')
-    core.summary.addSeparator()
-    core.summary.addLink('LINK', 'https://ya.ru')
+    await core.summary
+      .addHeading('HEADING')
+      .addDetails('LABEL', 'CONTENT')
+      .addRaw('RAW')
+      .addSeparator()
+      .addLink('LINK', 'https://ya.ru')
+
+    core.info('TEST TEXT')
 
     // justDoIt(sourcesPath, resultsPath)
   } catch (error) {

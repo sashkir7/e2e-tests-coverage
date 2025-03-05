@@ -143,27 +143,39 @@ var parsesources_1 = require('./parsesources')
 var parsetestresults_1 = require('./parsetestresults')
 function run() {
   return __awaiter(this, void 0, void 0, function () {
-    var sourcesPath, resultsPath
+    var sourcesPath, resultsPath, error_1
     return __generator(this, function (_a) {
-      try {
-        sourcesPath = core.getInput('sources-path', {
-          required: true
-        })
-        resultsPath = core.getInput('results-path', {
-          required: true
-        })
-        core.info('sourcesPath = ' + sourcesPath)
-        core.info('resultsPath = ' + resultsPath)
-        core.summary.addHeading('HEADING')
-        core.summary.addDetails('LABEL', 'CONTENT')
-        core.summary.addRaw('RAW')
-        core.summary.addSeparator()
-        core.summary.addLink('LINK', 'https://ya.ru')
-        // justDoIt(sourcesPath, resultsPath)
-      } catch (error) {
-        if (error instanceof Error) core.setFailed(error.message)
+      switch (_a.label) {
+        case 0:
+          _a.trys.push([0, 2, , 3])
+          sourcesPath = core.getInput('sources-path', {
+            required: true
+          })
+          resultsPath = core.getInput('results-path', {
+            required: true
+          })
+          core.info('sourcesPath = ' + sourcesPath)
+          core.info('resultsPath = ' + resultsPath)
+          return [
+            4 /*yield*/,
+            core.summary
+              .addHeading('HEADING')
+              .addDetails('LABEL', 'CONTENT')
+              .addRaw('RAW')
+              .addSeparator()
+              .addLink('LINK', 'https://ya.ru')
+          ]
+        case 1:
+          _a.sent()
+          core.info('TEST TEXT')
+          return [3 /*break*/, 3]
+        case 2:
+          error_1 = _a.sent()
+          if (error_1 instanceof Error) core.setFailed(error_1.message)
+          return [3 /*break*/, 3]
+        case 3:
+          return [2 /*return*/]
       }
-      return [2 /*return*/]
     })
   })
 }
