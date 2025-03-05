@@ -14,7 +14,13 @@ export async function run(): Promise<void> {
     core.info(`sourcesPath = ` + sourcesPath)
     core.info(`resultsPath = ` + resultsPath)
 
-    justDoIt(sourcesPath, resultsPath)
+    core.summary.addHeading('HEADING')
+    core.summary.addDetails('LABEL', 'CONTENT')
+    core.summary.addRaw('RAW')
+    core.summary.addSeparator()
+    core.summary.addLink('LINK', 'https://ya.ru')
+
+    // justDoIt(sourcesPath, resultsPath)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }

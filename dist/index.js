@@ -27498,48 +27498,33 @@ function requireMain () {
 	Object.defineProperty(main$1, '__esModule', { value: true });
 	main$1.run = run;
 	var core = requireCore();
-	var parsesources_1 = requireParsesources();
-	var parsetestresults_1 = requireParsetestresults();
+	requireParsesources();
+	requireParsetestresults();
 	function run() {
 	  return __awaiter(this, void 0, void 0, function () {
 	    var sourcesPath, resultsPath;
 	    return __generator(this, function (_a) {
 	      try {
-	        sourcesPath = core.getInput('sources-path', { required: true });
-	        resultsPath = core.getInput('results-path', { required: true });
+	        sourcesPath = core.getInput('sources-path', {
+	          required: true
+	        });
+	        resultsPath = core.getInput('results-path', {
+	          required: true
+	        });
 	        core.info('sourcesPath = ' + sourcesPath);
 	        core.info('resultsPath = ' + resultsPath);
-	        justDoIt(sourcesPath, resultsPath);
+	        core.summary.addHeading('HEADING');
+	        core.summary.addDetails('LABEL', 'CONTENT');
+	        core.summary.addRaw('RAW');
+	        core.summary.addSeparator();
+	        core.summary.addLink('LINK', 'https://ya.ru');
+	        // justDoIt(sourcesPath, resultsPath)
 	      } catch (error) {
 	        if (error instanceof Error) core.setFailed(error.message);
 	      }
 	      return [2 /*return*/]
 	    })
 	  })
-	}
-	function justDoIt(sourcesPath, resultsPath) {
-	  var rawCoverage = (0, parsesources_1.default)(sourcesPath);
-	  var testsCoverage = (0, parsetestresults_1.default)(resultsPath);
-	  var sumPercents = 0;
-	  var percents = new Map();
-	  rawCoverage.forEach(function (parameters, className) {
-	    var testsElements = new Set();
-	    if (testsCoverage.has(className)) {
-	      testsElements = testsCoverage.get(className);
-	    }
-	    var percent = (testsElements.size * 100) / parameters.size;
-	    sumPercents = sumPercents + percent;
-	    percents.set(className, percent);
-	  });
-	  var averagePercent = sumPercents / percents.size;
-	  console.log(percents);
-	  console.log('Средний % = ' + averagePercent);
-	  core.info(
-	    '\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u043F\u0440\u043E\u0446\u0435\u043D\u0442 ' +
-	      averagePercent
-	  );
-	  core.info('-------');
-	  core.info(JSON.stringify(Object.fromEntries(percents)));
 	}
 	return main$1;
 }
