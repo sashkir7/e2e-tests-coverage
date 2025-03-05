@@ -20,6 +20,7 @@ export async function run(): Promise<void> {
       .addRaw('RAW')
       .addSeparator()
       .addLink('LINK', 'https://ya.ru')
+      .write()
 
     core.info('TEST TEXT')
 

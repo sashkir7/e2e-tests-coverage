@@ -27523,6 +27523,7 @@ function requireMain () {
 	              .addRaw('RAW')
 	              .addSeparator()
 	              .addLink('LINK', 'https://ya.ru')
+	              .write()
 	          ]
 	        case 1:
 	          _a.sent();
