@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import parsingDirectory from './filesfinder'
 
-export default function parseAndroidRawSources(
+export default function parseAndroidSources(
   dirPath: string
 ): Map<string, Set<string>> {
   let files: string[] = parsingDirectory(dirPath, new RegExp('.kt$'))

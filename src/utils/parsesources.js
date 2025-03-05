@@ -1,9 +1,9 @@
 'use strict'
 Object.defineProperty(exports, '__esModule', { value: true })
-exports.default = parseAndroidRawSources
+exports.default = parseAndroidSources
 var fs = require('fs')
 var filesfinder_1 = require('./filesfinder')
-function parseAndroidRawSources(dirPath) {
+function parseAndroidSources(dirPath) {
   var files = (0, filesfinder_1.default)(dirPath, new RegExp('.kt$'))
   var result = new Map()
   files.forEach(function (file) {

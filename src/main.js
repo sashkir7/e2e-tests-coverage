@@ -139,36 +139,25 @@ var __generator =
 Object.defineProperty(exports, '__esModule', { value: true })
 exports.run = run
 var core = require('@actions/core')
-var parsesources_1 = require('./parsesources')
-var parsetestresults_1 = require('./parsetestresults')
+var parsesources_1 = require('./utils/parsesources')
+var parsetestresults_1 = require('./utils/parsetestresults')
 function run() {
   return __awaiter(this, void 0, void 0, function () {
-    var sourcesPath, resultsPath, error_1
+    var sourcesPath, testsResultsPath, error_1
     return __generator(this, function (_a) {
       switch (_a.label) {
         case 0:
           _a.trys.push([0, 2, , 3])
-          sourcesPath = core.getInput('sources-path', {
+          sourcesPath = core.getInput('sources-path', { required: true })
+          testsResultsPath = core.getInput('test-results-path', {
             required: true
           })
-          resultsPath = core.getInput('results-path', {
-            required: true
-          })
-          core.info('sourcesPath = ' + sourcesPath)
-          core.info('resultsPath = ' + resultsPath)
           return [
             4 /*yield*/,
-            core.summary
-              .addHeading('HEADING')
-              .addDetails('LABEL', 'CONTENT')
-              .addRaw('RAW')
-              .addSeparator()
-              .addLink('LINK', 'https://ya.ru')
-              .write()
+            calculateCoverages(sourcesPath, testsResultsPath)
           ]
         case 1:
           _a.sent()
-          core.info('TEST TEXT')
           return [3 /*break*/, 3]
         case 2:
           error_1 = _a.sent()
@@ -180,27 +169,54 @@ function run() {
     })
   })
 }
-function justDoIt(sourcesPath, resultsPath) {
-  var rawCoverage = (0, parsesources_1.default)(sourcesPath)
-  var testsCoverage = (0, parsetestresults_1.default)(resultsPath)
-  var sumPercents = 0
-  var percents = new Map()
-  rawCoverage.forEach(function (parameters, className) {
-    var testsElements = new Set()
-    if (testsCoverage.has(className)) {
-      testsElements = testsCoverage.get(className)
-    }
-    var percent = (testsElements.size * 100) / parameters.size
-    sumPercents = sumPercents + percent
-    percents.set(className, percent)
+function calculateCoverages(sourcesPath, testsResultsPath) {
+  return __awaiter(this, void 0, void 0, function () {
+    var sources, testsResults, sumCoveragePercent, coverages, averagePercent
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0:
+          sources = (0, parsesources_1.default)(sourcesPath)
+          testsResults = (0, parsetestresults_1.default)(testsResultsPath)
+          sumCoveragePercent = 0
+          coverages = []
+          sources.forEach(function (variables, className) {
+            var testVariables = testsResults.has(className)
+              ? testsResults.get(className)
+              : new Set()
+            var coveragePercent = (testVariables.size * 100) / variables.size
+            sumCoveragePercent = sumCoveragePercent + coveragePercent
+            coverages.push([className, coveragePercent])
+          })
+          averagePercent = sumCoveragePercent / coverages.length
+          coverages = coverages.sort(function (n1, n2) {
+            return n2[1] - n1[1]
+          })
+          return [
+            4 /*yield*/,
+            core.summary
+              .addHeading(
+                'E2E TESTS COVERAGE: '.concat(averagePercent.toFixed(2), ' %')
+              )
+              .addTable(convertToCoverageTable(coverages))
+              .write()
+          ]
+        case 1:
+          _a.sent()
+          return [2 /*return*/]
+      }
+    })
   })
-  var averagePercent = sumPercents / percents.size
-  console.log(percents)
-  console.log('Средний % = ' + averagePercent)
-  core.info(
-    '\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u043F\u0440\u043E\u0446\u0435\u043D\u0442 ' +
-      averagePercent
-  )
-  core.info('-------')
-  core.info(JSON.stringify(Object.fromEntries(percents)))
+}
+function convertToCoverageTable(coverages) {
+  var tableRows = []
+  var headers = [
+    { data: 'Page-object class', header: true },
+    { data: 'Coverage percent, %', header: true }
+  ]
+  tableRows.push(headers)
+  coverages.forEach(function (item) {
+    var row = [item[0], item[1].toFixed(2)]
+    tableRows.push(row)
+  })
+  return tableRows
 }

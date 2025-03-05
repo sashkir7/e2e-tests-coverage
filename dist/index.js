@@ -27277,10 +27277,10 @@ function requireParsesources () {
 	if (hasRequiredParsesources) return parsesources;
 	hasRequiredParsesources = 1;
 	Object.defineProperty(parsesources, '__esModule', { value: true });
-	parsesources.default = parseAndroidRawSources;
+	parsesources.default = parseAndroidSources;
 	var fs = require$$0$2;
 	var filesfinder_1 = requireFilesfinder();
-	function parseAndroidRawSources(dirPath) {
+	function parseAndroidSources(dirPath) {
 	  var files = (0, filesfinder_1.default)(dirPath, new RegExp('.kt$'));
 	  var result = new Map();
 	  files.forEach(function (file) {
@@ -27498,36 +27498,25 @@ function requireMain () {
 	Object.defineProperty(main$1, '__esModule', { value: true });
 	main$1.run = run;
 	var core = requireCore();
-	requireParsesources();
-	requireParsetestresults();
+	var parsesources_1 = requireParsesources();
+	var parsetestresults_1 = requireParsetestresults();
 	function run() {
 	  return __awaiter(this, void 0, void 0, function () {
-	    var sourcesPath, resultsPath, error_1;
+	    var sourcesPath, testsResultsPath, error_1;
 	    return __generator(this, function (_a) {
 	      switch (_a.label) {
 	        case 0:
 	          _a.trys.push([0, 2, , 3]);
-	          sourcesPath = core.getInput('sources-path', {
+	          sourcesPath = core.getInput('sources-path', { required: true });
+	          testsResultsPath = core.getInput('test-results-path', {
 	            required: true
 	          });
-	          resultsPath = core.getInput('results-path', {
-	            required: true
-	          });
-	          core.info('sourcesPath = ' + sourcesPath);
-	          core.info('resultsPath = ' + resultsPath);
 	          return [
 	            4 /*yield*/,
-	            core.summary
-	              .addHeading('HEADING')
-	              .addDetails('LABEL', 'CONTENT')
-	              .addRaw('RAW')
-	              .addSeparator()
-	              .addLink('LINK', 'https://ya.ru')
-	              .write()
+	            calculateCoverages(sourcesPath, testsResultsPath)
 	          ]
 	        case 1:
 	          _a.sent();
-	          core.info('TEST TEXT');
 	          return [3 /*break*/, 3]
 	        case 2:
 	          error_1 = _a.sent();
@@ -27538,6 +27527,57 @@ function requireMain () {
 	      }
 	    })
 	  })
+	}
+	function calculateCoverages(sourcesPath, testsResultsPath) {
+	  return __awaiter(this, void 0, void 0, function () {
+	    var sources, testsResults, sumCoveragePercent, coverages, averagePercent;
+	    return __generator(this, function (_a) {
+	      switch (_a.label) {
+	        case 0:
+	          sources = (0, parsesources_1.default)(sourcesPath);
+	          testsResults = (0, parsetestresults_1.default)(testsResultsPath);
+	          sumCoveragePercent = 0;
+	          coverages = [];
+	          sources.forEach(function (variables, className) {
+	            var testVariables = testsResults.has(className)
+	              ? testsResults.get(className)
+	              : new Set();
+	            var coveragePercent = (testVariables.size * 100) / variables.size;
+	            sumCoveragePercent = sumCoveragePercent + coveragePercent;
+	            coverages.push([className, coveragePercent]);
+	          });
+	          averagePercent = sumCoveragePercent / coverages.length;
+	          coverages = coverages.sort(function (n1, n2) {
+	            return n2[1] - n1[1]
+	          });
+	          return [
+	            4 /*yield*/,
+	            core.summary
+	              .addHeading(
+	                'E2E TESTS COVERAGE: '.concat(averagePercent.toFixed(2), ' %')
+	              )
+	              .addTable(convertToCoverageTable(coverages))
+	              .write()
+	          ]
+	        case 1:
+	          _a.sent();
+	          return [2 /*return*/]
+	      }
+	    })
+	  })
+	}
+	function convertToCoverageTable(coverages) {
+	  var tableRows = [];
+	  var headers = [
+	    { data: 'Page-object class', header: true },
+	    { data: 'Coverage percent, %', header: true }
+	  ];
+	  tableRows.push(headers);
+	  coverages.forEach(function (item) {
+	    var row = [item[0], item[1].toFixed(2)];
+	    tableRows.push(row);
+	  });
+	  return tableRows
 	}
 	return main$1;
 }

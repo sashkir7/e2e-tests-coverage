@@ -1,62 +1,66 @@
 import * as core from '@actions/core'
-import parseAndroidRawSources from './parsesources'
-import parseAndroidTestResults from './parsetestresults'
+import parseAndroidSources from './utils/parsesources'
+import parseAndroidTestResults from './utils/parsetestresults'
+import { SummaryTableCell, SummaryTableRow } from '@actions/core/lib/summary'
 
 export async function run(): Promise<void> {
   try {
-    const sourcesPath: string = core.getInput('sources-path', {
+    let sourcesPath: string = core.getInput('sources-path', { required: true })
+    let testsResultsPath: string = core.getInput('test-results-path', {
       required: true
     })
-    const resultsPath: string = core.getInput('results-path', {
-      required: true
-    })
 
-    core.info(`sourcesPath = ` + sourcesPath)
-    core.info(`resultsPath = ` + resultsPath)
-
-    await core.summary
-      .addHeading('HEADING')
-      .addDetails('LABEL', 'CONTENT')
-      .addRaw('RAW')
-      .addSeparator()
-      .addLink('LINK', 'https://ya.ru')
-      .write()
-
-    core.info('TEST TEXT')
-
-    // justDoIt(sourcesPath, resultsPath)
+    await calculateCoverages(sourcesPath, testsResultsPath)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
 }
 
-function justDoIt(sourcesPath: string, resultsPath: string) {
-  let rawCoverage: Map<string, Set<string>> = parseAndroidRawSources(
-    sourcesPath
-  )
-  let testsCoverage: Map<string, Set<string>> = parseAndroidTestResults(
-    resultsPath
+async function calculateCoverages(
+  sourcesPath: string,
+  testsResultsPath: string
+): Promise<void> {
+  let sources: Map<string, Set<string>> = parseAndroidSources(sourcesPath)
+  let testsResults: Map<string, Set<string>> = parseAndroidTestResults(
+    testsResultsPath
   )
 
-  let sumPercents: number = 0
-  let percents: Map<string, number> = new Map<string, number>()
-  rawCoverage.forEach((parameters: Set<string>, className: string): void => {
-    let testsElements: Set<string> = new Set()
-    if (testsCoverage.has(className)) {
-      testsElements = testsCoverage.get(className)
-    }
-
-    let percent: number = (testsElements.size * 100) / parameters.size
-    sumPercents = sumPercents + percent
-    percents.set(className, percent)
+  let sumCoveragePercent: number = 0
+  let coverages: [string, number][] = []
+  sources.forEach((variables: Set<string>, className: string): void => {
+    let testVariables: Set<string> = testsResults.has(className)
+      ? testsResults.get(className)
+      : new Set()
+    let coveragePercent: number = (testVariables.size * 100) / variables.size
+    sumCoveragePercent = sumCoveragePercent + coveragePercent
+    coverages.push([className, coveragePercent])
   })
 
-  let averagePercent: number = sumPercents / percents.size
+  let averagePercent: number = sumCoveragePercent / coverages.length
+  coverages = coverages.sort(
+    (n1: [string, number], n2: [string, number]) => n2[1] - n1[1]
+  )
 
-  console.log(percents)
-  console.log('Средний % = ' + averagePercent)
+  await core.summary
+    .addHeading(`E2E TESTS COVERAGE: ${averagePercent.toFixed(2)} %`)
+    .addTable(convertToCoverageTable(coverages))
+    .write()
+}
 
-  core.info(`Средний процент ` + averagePercent)
-  core.info('-------')
-  core.info(JSON.stringify(Object.fromEntries(percents)))
+function convertToCoverageTable(
+  coverages: [string, number][]
+): SummaryTableRow[] {
+  let tableRows: SummaryTableRow[] = []
+  let headers: SummaryTableCell[] = [
+    { data: 'Page-object class', header: true },
+    { data: 'Coverage percent, %', header: true }
+  ]
+
+  tableRows.push(headers)
+  coverages.forEach((item: [string, number]): void => {
+    let row: string[] = [item[0], item[1].toFixed(2)]
+    tableRows.push(row)
+  })
+
+  return tableRows
 }
