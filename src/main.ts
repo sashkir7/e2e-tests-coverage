@@ -42,7 +42,7 @@ async function calculateCoverages(
   )
 
   await core.summary
-    .addHeading(`E2E TESTS COVERAGE: ${averagePercent.toFixed(2)} %`)
+    .addHeading(`E2E TESTS COVERAGE: ${averagePercent.toFixed(1)} %`)
     .addTable(convertToCoverageTable(coverages))
     .write()
 }
@@ -52,13 +52,13 @@ function convertToCoverageTable(
 ): SummaryTableRow[] {
   let tableRows: SummaryTableRow[] = []
   let headers: SummaryTableCell[] = [
-    { data: 'Page-object class', header: true },
-    { data: 'Coverage percent, %', header: true }
+    { data: 'Page object class', header: true },
+    { data: 'Coverage, %', header: true }
   ]
 
   tableRows.push(headers)
   coverages.forEach((item: [string, number]): void => {
-    let row: string[] = [item[0], item[1].toFixed(2)]
+    let row: string[] = [item[0], item[1].toFixed()]
     tableRows.push(row)
   })
 

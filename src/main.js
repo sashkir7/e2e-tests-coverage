@@ -195,7 +195,7 @@ function calculateCoverages(sourcesPath, testsResultsPath) {
             4 /*yield*/,
             core.summary
               .addHeading(
-                'E2E TESTS COVERAGE: '.concat(averagePercent.toFixed(2), ' %')
+                'E2E TESTS COVERAGE: '.concat(averagePercent.toFixed(1), ' %')
               )
               .addTable(convertToCoverageTable(coverages))
               .write()
@@ -210,12 +210,12 @@ function calculateCoverages(sourcesPath, testsResultsPath) {
 function convertToCoverageTable(coverages) {
   var tableRows = []
   var headers = [
-    { data: 'Page-object class', header: true },
-    { data: 'Coverage percent, %', header: true }
+    { data: 'Page object class', header: true },
+    { data: 'Coverage, %', header: true }
   ]
   tableRows.push(headers)
   coverages.forEach(function (item) {
-    var row = [item[0], item[1].toFixed(2)]
+    var row = [item[0], item[1].toFixed()]
     tableRows.push(row)
   })
   return tableRows
